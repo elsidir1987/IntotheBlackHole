@@ -30,7 +30,7 @@ all they need to know. The comments should usually include at least:
 
 | Αρχική οθόνη | Gameplay | Νίκη |
 |--------------|----------|------|
-| ![Start Screen](images/start_screen.png) | ![Game Play](images/gameplay.png) | ![Victory](images/victory.png) |
+| ![Start Screen](screenshots/start_screen.png) | ![Game Play](screenshots/gameplay.png) | ![Victory](screenshots/victory.png) |
 
 > 💡 *Για να δεις τις εικόνες, αποθήκευσέ τες στον φάκελο `images/` του project σου.*
 
