@@ -26,6 +26,7 @@ public class Level1World extends World {
         addObject(new Spaceship(), 100, 300);
         addObject(new BlackHole(), 500, 250);
         
+        
         for (int i = 0; i < 5; i++)
             addObject(new DataPoint(), Greenfoot.getRandomNumber(600)+100, Greenfoot.getRandomNumber(600));
         

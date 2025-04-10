@@ -13,10 +13,17 @@ public class VictoryScreen extends World {
         super(800, 600, 1);
         setBackground("final_bg.png"); 
         
+        GreenfootImage sig = new GreenfootImage(300, 30);
+        sig.setColor(new Color(255, 255, 255, 120)); 
+        sig.setFont(new greenfoot.Font("Monospaced", true, false, 16));
+        sig.drawString("Created by Eleni Sidiraki", 5, 20);
+        getBackground().drawImage(sig, 10, getHeight() - 35); 
+
+        
         SoundManager.stop();
         String message = "🎉 Κέρδισες! 🎉\n\n" +
                          "Η αποστολή σου ήταν επιτυχής!\n" +
-                        "Μάζεψες συνολικά " + score + " data capsules.\n" +
+                        "Μάζεψες συνολικά " + score + " points.\n" +
                         "Ζωές που απέμειναν: " + lives + "\n\n" +
                         "You're A Guardian of the Galaxy!\n\n" +
                         "➤ Πάτησε ENTER για να παίξεις ξανά.";

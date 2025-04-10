@@ -18,6 +18,13 @@ public class StartScreen extends World {
         bg.scale(800, 600); 
         setBackground(bg);
         
+        GreenfootImage sig = new GreenfootImage(300, 30);
+        sig.setColor(new Color(255, 255, 255, 120)); 
+        sig.setFont(new greenfoot.Font("Monospaced", true, false, 16));
+        sig.drawString("Created by Eleni Sidiraki", 5, 20);
+        getBackground().drawImage(sig, 10, getHeight() - 35); 
+
+        
     }
     
     public void started() {

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Explosion
-comment0.text=\n\ An\ explosion.\ It\ starts\ by\ expanding\ and\ then\ collapsing.\ \n\ The\ explosion\ will\ explode\ other\ obejcts\ that\ the\ explosion\ intersects.\n\ \n\ @author\ Poul\ Henriksen\n\ @version\ 1.0.1\n
+comment0.text=\n\ An\ explosion.\ It\ starts\ by\ expanding\ and\ then\ collapsing.\ \n\ The\ explosion\ will\ explode\ other\ objects\ that\ the\ explosion\ intersects.\n\ \n\ @author\ Poul\ Henriksen\n\ @version\ 1.0.1\n
 comment1.params=
 comment1.target=Explosion()
 comment1.text=\n\ Create\ a\ new\ explosion.\n

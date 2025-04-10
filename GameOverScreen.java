@@ -15,6 +15,14 @@ public class GameOverScreen extends World {
         super(800, 600, 1);
         setBackground("final_bg.png");
         Greenfoot.playSound("gameover.mp3");
+        
+        GreenfootImage sig = new GreenfootImage(300, 30);
+        sig.setColor(new Color(255, 255, 255, 120)); 
+        sig.setFont(new greenfoot.Font("Monospaced", true, false, 16));
+        sig.drawString("Created by Eleni Sidiraki", 5, 20);
+        getBackground().drawImage(sig, 10, getHeight() - 35); 
+        
+
         String message = "GAME OVER\n\n" +
                         "Η αποστολή σου απέτυχε.\n" +
                         "Η μαύρη τρύπα σε κατάπιε ή δεν πρόλαβες.\n\n" +
