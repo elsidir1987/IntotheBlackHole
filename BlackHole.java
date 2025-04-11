@@ -20,7 +20,7 @@ public class BlackHole extends Actor {
 
     private void attractObjects() {
         for (Actor actor : getWorld().getObjects(Actor.class)) {
-            if (actor != this) {
+            if (actor != this && !(actor instanceof DataPoint)) {
 
                 int dx = getX() - actor.getX();
                 int dy = getY() - actor.getY();

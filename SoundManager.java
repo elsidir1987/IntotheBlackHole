@@ -9,7 +9,8 @@ import greenfoot.*;
 */
 public class SoundManager {
     private static GreenfootSound currentMusic;
-
+    private static GreenfootSound victorySound = new GreenfootSound("victory.mp3");
+    
     public static void playLoop(String filename, int volume) {
         stop(); // σταματά προηγούμενη μουσική
         currentMusic = new GreenfootSound(filename);
@@ -17,9 +18,20 @@ public class SoundManager {
         currentMusic.playLoop();
     }
 
-    public static void stop() {
-        if (currentMusic != null) {
+    public static void stop(){
+        if(currentMusic!=null){
             currentMusic.stop();
         }
+    }
+    
+    public static void playVictoryMusic() {
+        stopAll();
+        victorySound.setVolume(70);
+        victorySound.play();
+    }
+
+    public static void stopAll() {
+    
+        victorySound.stop();
     }
 }

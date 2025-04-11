@@ -30,12 +30,13 @@ public class VictoryScreen extends World {
 
         messageBoard = new InfoBoard(message);
         addObject(messageBoard, getWidth()/2, getHeight()/2);
-        Greenfoot.playSound("victory.mp3");
+        SoundManager.playVictoryMusic();
+        
     }
 
     public void act() {
         if (Greenfoot.isKeyDown("enter")) {
-            SoundManager.stop();
+            SoundManager.stopAll();
             Greenfoot.setWorld(new StartScreen());
         }
     }

@@ -46,8 +46,8 @@ public class StartScreen extends World {
         if (instructionsVisible && getObjects(InfoBoard.class).isEmpty()) {
             addObject(new InfoBoard(
                 "INTO THE BLACK HOLE\n\n" +
-                "Ως νέος Guardian του Γαλαξία, η αποστολή σου είναι κρίσιμη,\n" +
-                "είναι να συλλέξεις data capsules από το βαθύ διάστημα.\n\n" +
+                "Ως νέος Guardian of the Galaxy, η αποστολή σου είναι κρίσιμη,\n" +
+                "σύλλεξε data capsules από το βαθύ διάστημα.\n\n" +
                 "• Χρησιμοποίησε τα ΒΕΛΗ για να κινηθείς και να στρίψεις.\n" +
                 "• Απόφυγε τις μαύρες τρύπες και τους πλανήτες.\n" +
                 "• Μάζεψε τις data capsules για να κερδίσεις σκορ.\n\n" +
